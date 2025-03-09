@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SportWellApp</string>
+    <string name="login_page_title">Login Page</string>
+    <string name="student_id_hint">Please Type in Your Username</string>
+    <string name="password_hint">Please Type in Your Password</string>
+    <string name="student_id_label">Username: </string>
+    <string name="password_label">Password: </string>
+    <string name="login_button_text">Exercise!</string>
+</resources>

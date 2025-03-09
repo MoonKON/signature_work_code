@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Choose Your Exercise!"
+        android:textColor="#FEFAFD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="308dp">
+
+        <GridLayout
+            android:id="@+id/grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <ImageButton
+                android:id="@+id/deadlift"
+                android:layout_width="330dp"
+                android:layout_height="186dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:src="@drawable/deadlift" />
+
+            <ImageButton
+                android:id="@+id/squart"
+                android:layout_width="378dp"
+                android:layout_height="257dp"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:contentDescription="Squat Image"
+                android:src="@drawable/squart" />
+
+            <ImageButton
+                android:id="@+id/jump"
+                android:layout_width="401dp"
+                android:layout_height="200dp"
+                android:background="@null"
+                android:contentDescription="Squat Image"
+                android:src="@drawable/jump" />
+
+            <ImageButton
+                android:id="@+id/yoga"
+                android:layout_width="381dp"
+                android:layout_height="200dp"
+                android:background="@null"
+                android:contentDescription="Squat Image"
+                android:src="@drawable/yoga" />
+
+            <ImageButton
+                android:id="@+id/pushup"
+                android:layout_width="398dp"
+                android:layout_height="231dp"
+                android:background="@null"
+                android:contentDescription="Squat Image"
+                android:src="@drawable/pushup" />
+
+            <ImageButton
+                android:id="@+id/baseball"
+                android:layout_width="381dp"
+                android:layout_height="231dp"
+                android:background="@null"
+                android:contentDescription="Squat Image"
+                android:src="@drawable/baseball" />
+
+
+        </GridLayout>
+    </ScrollView>
+
+</GridLayout>
